@@ -16,9 +16,13 @@ touched.
 ## Install
 
 ```sh
-dsh plugin --profile web add link:/home/shkulev/deepseekharness/dsh-continue-button
-# or with an absolute path:
-dsh plugin --profile web add /home/shkulev/deepseekharness/dsh-continue-button
+dsh plugin --profile web add MrGnUm/dsh-continue-button
+```
+
+Or install from a local checkout with `link:` (or a bare absolute path):
+
+```sh
+dsh plugin --profile web add link:/path/to/dsh-continue-button
 ```
 
 Then refresh the web UI (or restart `dsh web`).
