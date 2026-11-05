@@ -1,7 +1,7 @@
 {
   "name": "dsh-continue-button",
   "description": "DSH Web UI plugin: adds a Continue (play) button next to the send icon that sends a 'continue' message; hidden while the session is running or is a blank new session",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
